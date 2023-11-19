@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Name": "Programming",
+    "Description": "Books covering various programming languages, software development methodologies, and coding practices."
+  },
+  {
+    "Id": 2,
+    "Name": "Cloud Computing",
+    "Description": "Explore the practical aspects of cloud computing and its applications in modern IT environments."
+  },
+  {
+    "Id": 3,
+    "Name": "Web Development",
+    "Description": "Books focusing on front-end and back-end development, covering web technologies and frameworks."
+  },
+  {
+    "Id": 4,
+    "Name": "Artificial Intelligence",
+    "Description": "Discover the world of artificial intelligence, including machine learning, neural networks, and AI applications."
+  },
+  {
+    "Id": 5,
+    "Name": "Data Science",
+    "Description": "Essential guides for mastering data science concepts, analytics, and machine learning algorithms."
+  },
+  {
+    "Id": 6,
+    "Name": "Mobile Development",
+    "Description": "Books on developing mobile applications, exploring frameworks, and best practices for iOS and Android."
+  },
+  {
+    "Id": 7,
+    "Name": "Cybersecurity",
+    "Description": "Learn about cybersecurity fundamentals, threats, and countermeasures to protect digital assets."
+  },
+  {
+    "Id": 8,
+    "Name": "Blockchain",
+    "Description": "Explore the transformative potential of blockchain technology and its applications in various industries."
+  },
+  {
+    "Id": 9,
+    "Name": "UX/UI Design",
+    "Description": "Books focusing on user experience (UX) and user interface (UI) design principles for creating intuitive products."
+  },
+  {
+    "Id": 10,
+    "Name": "Embedded Systems",
+    "Description": "Comprehensive guides on designing embedded systems for various applications, including IoT solutions."
+  }
+]

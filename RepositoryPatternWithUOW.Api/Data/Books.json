@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "Title": "The Art of Coding",
+    "Description": "A comprehensive guide to software development and best coding practices.",
+    "Isbn": "978-1234567890",
+    "PublishedOn": "2022-01-15T00:00:00Z",
+    "Price": 29.99,
+    "AuthorId": 1,
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Title": "Data Science Essentials",
+    "Description": "Explore the fundamentals of data science and its applications.",
+    "Isbn": "978-0987654321",
+    "PublishedOn": "2021-09-20T00:00:00Z",
+    "Price": 39.99,
+    "AuthorId": 2,
+    "CategoryId": 5
+  },
+  {
+    "Id": 3,
+    "Title": "Mastering Front-End Development",
+    "Description": "Learn advanced techniques for creating modern and responsive user interfaces.",
+    "Isbn": "978-9876543210",
+    "PublishedOn": "2021-11-30T00:00:00Z",
+    "Price": 34.99,
+    "AuthorId": 3,
+    "CategoryId": 3
+  },
+  {
+    "Id": 4,
+    "Title": "Blockchain Revolution",
+    "Description": "Discover the transformative potential of blockchain technology.",
+    "Isbn": "978-1357902468",
+    "PublishedOn": "2022-03-10T00:00:00Z",
+    "Price": 44.99,
+    "AuthorId": 4,
+    "CategoryId": 8
+  },
+  {
+    "Id": 5,
+    "Title": "Web Security Handbook",
+    "Description": "A practical guide to securing web applications against cyber threats.",
+    "Isbn": "978-5678901234",
+    "PublishedOn": "2022-05-25T00:00:00Z",
+    "Price": 32.99,
+    "AuthorId": 5,
+    "CategoryId": 7
+  },
+  {
+    "Id": 6,
+    "Title": "Mobile App Development with Flutter",
+    "Description": "Build cross-platform mobile apps using the Flutter framework.",
+    "Isbn": "978-0123456789",
+    "PublishedOn": "2022-02-05T00:00:00Z",
+    "Price": 37.99,
+    "AuthorId": 9,
+    "CategoryId": 6
+  },
+  {
+    "Id": 7,
+    "Title": "AI and Machine Learning in Practice",
+    "Description": "Apply artificial intelligence and machine learning techniques to real-world problems.",
+    "Isbn": "978-5432109876",
+    "PublishedOn": "2021-12-18T00:00:00Z",
+    "Price": 49.99,
+    "AuthorId": 12,
+    "CategoryId": 4
+  },
+  {
+    "Id": 8,
+    "Title": "Clean Code A Handbook of Agile Software Craftsmanship",
+    "Description": "Explore the principles and practices of writing clean and maintainable code.",
+    "Isbn": "978-8765432109",
+    "PublishedOn": "2021-10-08T00:00:00Z",
+    "Price": 42.99,
+    "AuthorId": 17,
+    "CategoryId": 1
+  },
+  {
+    "Id": 9,
+    "Title": "Embedded Systems Design",
+    "Description": "A comprehensive guide to designing embedded systems for various applications.",
+    "Isbn": "978-1928374650",
+    "PublishedOn": "2022-04-12T00:00:00Z",
+    "Price": 36.99,
+    "AuthorId": 15,
+    "CategoryId": 10
+  },
+  {
+    "Id": 10,
+    "Title": "UX Design Principles",
+    "Description": "Learn the essential principles of user experience design for creating intuitive and user-friendly products.",
+    "Isbn": "978-7654321098",
+    "PublishedOn": "2022-06-28T00:00:00Z",
+    "Price": 31.99,
+    "AuthorId": 10,
+    "CategoryId": 9
+  },
+  {
+    "Id": 11,
+    "Title": "Cybersecurity Fundamentals",
+    "Description": "An introductory guide to essential concepts in cybersecurity and online privacy.",
+    "Isbn": "978-9876543211",
+    "PublishedOn": "2021-08-15T00:00:00Z",
+    "Price": 28.99,
+    "AuthorId": 8,
+    "CategoryId": 7
+  },
+  {
+    "Id": 12,
+    "Title": "Cloud Computing: A Practical Approach",
+    "Description": "Explore the practical aspects of cloud computing and its applications in modern IT environments.",
+    "Isbn": "978-8765432101",
+    "PublishedOn": "2021-11-02T00:00:00Z",
+    "Price": 45.99,
+    "AuthorId": 11,
+    "CategoryId": 2
+  },
+  {
+    "Id": 13,
+    "Title": "Game Development Essentials",
+    "Description": "Learn the fundamentals of game development and create your own interactive experiences.",
+    "Isbn": "978-5678901235",
+    "PublishedOn": "2022-03-28T00:00:00Z",
+    "Price": 39.99,
+    "AuthorId": 6,
+    "CategoryId": 3
+  },
+  {
+    "Id": 14,
+    "Title": "Python for Data Analysis",
+    "Description": "Master the use of Python for data analysis, visualization, and machine learning.",
+    "Isbn": "978-5432109877",
+    "PublishedOn": "2022-01-05T00:00:00Z",
+    "Price": 36.99,
+    "AuthorId": 2,
+    "CategoryId": 5
+  },
+  {
+    "Id": 15,
+    "Title": "DevOps Handbook",
+    "Description": "A comprehensive guide to implementing DevOps practices for faster and more reliable software delivery.",
+    "Isbn": "978-0123456788",
+    "PublishedOn": "2021-10-20T00:00:00Z",
+    "Price": 42.99,
+    "AuthorId": 7,
+    "CategoryId": 6
+  }
+]

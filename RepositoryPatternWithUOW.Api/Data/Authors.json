@@ -1,0 +1,104 @@
+[
+  {
+    "Id": 1,
+    "Name": "John",
+    "Surname": "Doe",
+    "Bio": "Experienced software engineer with a passion for building scalable and efficient applications."
+  },
+  {
+    "Id": 2,
+    "Name": "Jane",
+    "Surname": "Smith",
+    "Bio": "Author of best-selling programming books and contributor to open-source projects."
+  },
+  {
+    "Id": 3,
+    "Name": "Alex",
+    "Surname": "Johnson",
+    "Bio": "Front-end developer with expertise in creating intuitive and responsive user interfaces."
+  },
+  {
+    "Id": 4,
+    "Name": "Eva",
+    "Surname": "Brown",
+    "Bio": "Data scientist specializing in machine learning and predictive analytics."
+  },
+  {
+    "Id": 5,
+    "Name": "Michael",
+    "Surname": "White",
+    "Bio": "Full-stack developer with a focus on creating robust and secure web applications."
+  },
+  {
+    "Id": 6,
+    "Name": "Sarah",
+    "Surname": "Lopez",
+    "Bio": "Backend developer specializing in designing and optimizing database systems."
+  },
+  {
+    "Id": 7,
+    "Name": "Chris",
+    "Surname": "Garcia",
+    "Bio": "DevOps engineer automating deployment processes for efficient and reliable software delivery."
+  },
+  {
+    "Id": 8,
+    "Name": "Emily",
+    "Surname": "Miller",
+    "Bio": "Cybersecurity expert committed to ensuring the integrity and security of digital systems."
+  },
+  {
+    "Id": 9,
+    "Name": "David",
+    "Surname": "Wang",
+    "Bio": "Mobile app developer creating innovative and user-friendly applications for iOS and Android."
+  },
+  {
+    "Id": 10,
+    "Name": "Rachel",
+    "Surname": "Chen",
+    "Bio": "UI/UX designer passionate about creating visually appealing and intuitive user interfaces."
+  },
+  {
+    "Id": 11,
+    "Name": "Aiden",
+    "Surname": "Williams",
+    "Bio": "Software architect with over 15 years of experience in designing scalable and maintainable systems. Published author and conference speaker."
+  },
+  {
+    "Id": 12,
+    "Name": "Olivia",
+    "Surname": "Martinez",
+    "Bio": "Machine learning researcher and data scientist. Contributed to cutting-edge research projects in natural language processing and computer vision."
+  },
+  {
+    "Id": 13,
+    "Name": "Lucas",
+    "Surname": "Taylor",
+    "Bio": "Front-end wizard crafting delightful and responsive user interfaces. Open-source contributor and advocate for web accessibility."
+  },
+  {
+    "Id": 14,
+    "Name": "Sophia",
+    "Surname": "Lee",
+    "Bio": "Blockchain developer and smart contract specialist. Enthusiastic about decentralized applications and the future of finance."
+  },
+  {
+    "Id": 15,
+    "Name": "Jackson",
+    "Surname": "Nguyen",
+    "Bio": "Embedded systems engineer working on IoT solutions. Passionate about the intersection of hardware and software."
+  },
+  {
+    "Id": 16,
+    "Name": "Joseph",
+    "Surname": "Albari",
+    "Bio": "Software developer with a focus on building scalable and maintainable backend systems. Enjoys solving complex problems and mentoring junior developers."
+  },
+  {
+    "Id": 17,
+    "Name": "Uncle",
+    "Surname": "Bob",
+    "Bio": "Robert C. Martin, also known as Uncle Bob, is a software engineer and author. He is a key figure in the development of Agile methodologies and a proponent of clean code principles."
+  }
+]
