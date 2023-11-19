@@ -17,6 +17,14 @@ public class CategoryService : ICategoryService
         _mapper = mapper;
     }
 
+    public CategoryCreateDTO CreateCategory(CategoryCreateDTO categoryCreateDTO)
+    {
+       var category = _mapper.Map<Category>(categoryCreateDTO);
+        _unitOfWork.CategoryRepository.Add(category);
+        _unitOfWork.SaveChanges();
+        return _mapper.Map<CategoryCreateDTO>(category);
+    }
+
     public IEnumerable<CategoryReadDTO> FindCategories(Func<CategoryWtihBooksAndAuthorReadDTO, bool> predicate)
     {
         Func<Category, bool> categoryPredicate = c => predicate(_mapper.Map<CategoryWtihBooksAndAuthorReadDTO>(c));
@@ -24,7 +32,7 @@ public class CategoryService : ICategoryService
     }
 
     public IEnumerable<CategoryReadDTO> GetCategories()=>
-        _mapper.Map<IEnumerable<CategoryReadDTO>>(_unitOfWork.CategoryRepository.GetAll);
+        _mapper.Map<IEnumerable<CategoryReadDTO>>(_unitOfWork.CategoryRepository.GetCategoriesWithBooks());
 
     public IEnumerable<CategoryWithBooksReadDTO> GetCategoriesWithBooks() =>
         _mapper.Map<IEnumerable<CategoryWithBooksReadDTO>>(_unitOfWork.CategoryRepository.GetCategoriesWithBooks());
