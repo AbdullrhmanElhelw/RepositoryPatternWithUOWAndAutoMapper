@@ -52,7 +52,11 @@ namespace RepositoryPatternWithUOW.api.Controllers
             is CategoryReadDTO categoryReadDTO
                 ? Ok(categoryReadDTO)
                 : NotFound();
-
+        [HttpPost]
+        public ActionResult<CategoryCreateDTO> CreateCategory(CategoryCreateDTO categoryCreateDTO) =>
+            _categoryService.CreateCategory(categoryCreateDTO) is CategoryCreateDTO category
+                ? Ok(category)
+                : BadRequest();
 
 
     }

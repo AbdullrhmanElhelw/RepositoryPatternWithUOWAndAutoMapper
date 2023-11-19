@@ -28,5 +28,8 @@ public class CategoryProfile : Profile
             .ForMember(des => des.Books,
             opt => opt.MapFrom(src => src.Books));
 
+        CreateMap<CategoryCreateDTO, Category>();
+        CreateMap<Category, CategoryCreateDTO>();
+
     }
 }

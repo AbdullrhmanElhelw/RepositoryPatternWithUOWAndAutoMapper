@@ -11,4 +11,7 @@ public interface ICategoryService
     IEnumerable<CategoryWithBooksReadDTO> GetCategoriesWithBooks();
     IEnumerable<CategoryWtihBooksAndAuthorReadDTO> GetCategoriesWithBooksAndAuthor();
     IEnumerable<CategoryReadDTO> FindCategories(Func<CategoryWtihBooksAndAuthorReadDTO, bool> predicate);
+
+    CategoryCreateDTO CreateCategory(CategoryCreateDTO categoryCreateDTO);
+
 }
