@@ -10,8 +10,9 @@ public interface ICategoryService
     IEnumerable<CategoryReadDTO> GetCategories();
     IEnumerable<CategoryWithBooksReadDTO> GetCategoriesWithBooks();
     IEnumerable<CategoryWtihBooksAndAuthorReadDTO> GetCategoriesWithBooksAndAuthor();
-    IEnumerable<CategoryReadDTO> FindCategories(Func<CategoryWtihBooksAndAuthorReadDTO, bool> predicate);
-
+    IEnumerable<CategoryReadDTO> FindCategories(Func<CategoryReadDTO, bool> predicate);
+    IEnumerable<CategoryWtihBooksAndAuthorReadDTO> FindCategories(Func<CategoryWtihBooksAndAuthorReadDTO, bool> predicate);
+    CategoryReadDTO FindCategory(Func<CategoryReadDTO, bool> predicate);
     CategoryCreateDTO CreateCategory(CategoryCreateDTO categoryCreateDTO);
 
 }

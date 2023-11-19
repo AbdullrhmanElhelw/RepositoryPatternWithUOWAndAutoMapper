@@ -5,6 +5,7 @@ using RepositoryPatternWithUOW.DataService.Implementation;
 using RepositoryPatternWithUOW.DataService.Mapping.AuthorMapping;
 using RepositoryPatternWithUOW.DataService.Mapping.BookMapping;
 using RepositoryPatternWithUOW.DataService.Mapping.CategoryMapping;
+using StackExchange.Redis;
 
 namespace RepositoryPatternWithUOW.DataService;
 
@@ -15,8 +16,18 @@ public static class ModuleServiceDependancies
         services.AddTransient<IAuthorService, AuthorService>();
         services.AddTransient<IBookService, BookService>();
         services.AddTransient<ICategoryService, CategoryService>();
+        services.AddDistributedMemoryCache();
+        services.AddTransient<ICacheService, CacheService>();
+        services.AddSingleton<IDatabase>(provider =>
+        {
+            var redis = ConnectionMultiplexer.Connect("localhost:6379");
+            return redis.GetDatabase();
+        });
         return services;
     }
+
+
+
 
     public static IServiceCollection AddAutoMapper(this IServiceCollection services)
     {
